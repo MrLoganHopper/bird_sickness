@@ -67,7 +67,7 @@ function Map() {
             <div id="map-wrapper">
               <div id="mainMap" ref={mapContainerRef}></div>
               <div className="map-overlay-controls glass">
-                <div style={{ fontSize: '0.7rem', fontWeight: '700', marginBottom: '10px', color: 'var(--cyan)' }}>LAYERS</div>
+                <div style={{ fontSize: '0.7rem', fontWeight: '700', marginBottom: '10px', color: 'black' }}>LAYERS</div>
                 <label className="toggle-row">
                   <input type="radio" name="maplayer" value="clusters" defaultChecked onClick={() => switchLayer('clusters')} /> 
                   Cluster Markers

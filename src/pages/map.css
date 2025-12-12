@@ -102,9 +102,18 @@ header {
 #mainMap { height: 100%; width: 100%; background: #0b0c10; }
 
 .map-overlay-controls {
-    position: absolute; top: 20px; right: 20px; z-index: 1000;
-    padding: 15px; border-radius: 8px; width: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #66fcf1;
+    z-index: 1000;
+ 
+    padding: 20px; /* Increased padding for larger size */
+    border-radius: 8px;
+    width: 250px; /* Increased width for larger size */
+    font-size: 1rem; /* Increased font size for better readability */
 }
+
 .toggle-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; cursor: pointer; color: var(--text-muted); font-size: 0.8rem; }
 .toggle-row:hover { color: #fff; }
 

@@ -32,10 +32,16 @@ export default function Home() {
       {/* Main Content */}
       <div className="container">
         <main>
-          <h2>Welcome to the Bird Flu Dashboard</h2>
+          <h2>Bird Flu is deadly</h2>
           <p>
-            Explore detection patterns, species-level analytics, outbreak clusters, and ecological flu indicators.
-            Use the links above or click below to start navigating through the interactive surveillance tools.
+            Since 2003, the CDC has reported more than 950 cases of H5N1 
+            (bird flu) globally and 49% of cases ended in mortality. 
+            To help you stay safe during your travels or keep your flock and 
+            livestock safe, we have compiled data on where and when bird flu has
+            been reported along with temperature data that indicates that the 
+            larger the difference between the coldest average temperature in a month
+             and the hottest average tempetature in a month per state the higher 
+             likelihood of bird flu in that state.
           </p>
           <a className="btn" href="/map">Start Exploring →</a>
         </main>
